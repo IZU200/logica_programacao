@@ -1,6 +1,11 @@
 # Questão 1: Imprimir "Olá, mundo!" na tela
 print("Olá, mundo!")
 
+#questão 1
+conjunto1= {1,2,3}
+conjunto2= {1,5,6}
+print (conjunto1|conjunto2)
+
 # Questão 2: Solicitar o nome do usuário e exibir uma mensagem de boas-vindas
 nome = input("Digite seu nome: ")
 print(f"Seja bem-vindo(a), {nome}!")
@@ -26,3 +31,4 @@ n = int(input("Digite um número para ver sua tabuada: "))
 print(f"Tabuada de {n}:")
 for i in range(1, 11):
     print(f"{n} x {i} = {n * i}")
+    
